@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: username/repo
+  repo: alexandmanu/alexandmanu-final
   branch: main # Branch to update (optional; defaults to master)
   site_domain: https://alexandmanu.com
   base_url: https://alexandmanu.com
