@@ -3,15 +3,11 @@
 <h1>{{ .Title }}</h1>
 <p>
   <i>
-    <p style="
-    margin: 0;">
-        {{ range .Param "authors" }}
-            written by: {{ . }}
-        {{ end }}
-    </p>
-    <time datetime='{{ .Date.Format "2006-01-02" }}'>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
+    written by:
+    {{ range $i, $a := .Param "authors" }}
+      {{ $a }}{{ if lt (add $i 1) (len (.Param "authors")) }}, {{ end }}
+    {{ end }}
+    | {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
   </i>
 </p>
 
