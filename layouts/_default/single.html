@@ -8,6 +8,13 @@
     </time>
   </i>
 </p>
+
+<p class="byline">
+  {{ range .Param "authors" }}
+    {{ . }}
+  {{ end }}
+</p>
+
 {{ end }}{{ end }}
 <content>
   {{ .Content }}
