@@ -1,7 +1,7 @@
 baseURL: "http://alexandmanu.com"
 languageCode: "en-us"
 title: "alex and manu"
-theme: hugo-bearblog
+theme: archie
 
 services:
   disqus:
