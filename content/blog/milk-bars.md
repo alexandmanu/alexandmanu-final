@@ -1,6 +1,6 @@
 ---
 title: milk bars
-date: 2025-10-19T13:06:27.637Z
+date: 2025-10-19T13:18:43.015Z
 description: fascinating milk bars
 authors:
   - Alex
