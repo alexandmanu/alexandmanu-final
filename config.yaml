@@ -14,4 +14,4 @@ taxonomies:
   category: categories
 
 params:
-  mode: "auto" 
+  mode: "toggle" 
