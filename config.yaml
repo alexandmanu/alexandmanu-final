@@ -12,3 +12,6 @@ taxonomies:
   author: authors
   tag: tags
   category: categories
+
+params:
+  mode: "auto" 
